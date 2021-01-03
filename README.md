@@ -23,7 +23,9 @@ corpus.taggedText = Map(getAnnotatedMergedDocument, corpus, annotations)
 ```
 corpus.taggedText is enabling us to see whole text with tag assigned to every word. 
 It is possible to see it by running command 
-```r corpus.taggedText[[1]] ```
+```r 
+corpus.taggedText[[1]] 
+```
 
 And corpus.tagged is enabling us to use some useful functions with tagged document. 
 Function that is used here is access to taged words - tagged_words() function 
