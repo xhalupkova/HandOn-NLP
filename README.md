@@ -12,9 +12,9 @@ Once we have these function created, it is needed to create Corpus.
 We start applying function mentioned above to the corpus. 
 
 First we apply getAnnotationsFromDocumet to corpus by running:
-
+```r
 annotations = lapply(corpus, getAnnotationsFromDocument)
-
+```
 ```html
 <h2>Example of code</h2>
 
