@@ -12,9 +12,23 @@ Once we have these function created, it is needed to create Corpus.
 We start applying function mentioned above to the corpus. 
 
 First we apply getAnnotationsFromDocumet to corpus by running:
-'''html
+
 annotations = lapply(corpus, getAnnotationsFromDocument)
-'''
+
+```html
+<h2>Example of code</h2>
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>Your title</h2>
+            <div class="wrap">
+            //Your content
+            </div>
+        </div>
+    </div>
+</pre>
+```
 Next, we apply two other functions to corups with annotations by running:
 corpus.tagged = Map(getAnnotatedPlainTextDocument, corpus, annotations)
 
